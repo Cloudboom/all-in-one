@@ -2,5 +2,5 @@
 
 namespace AIO\Container\State;
 
-class ImageDoesNotExistState implements IContainerState
-{}
+class ImageDoesNotExistState implements IContainerState {
+}

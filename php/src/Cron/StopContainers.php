@@ -1,10 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 // increase memory limit to 2GB
 ini_set('memory_limit', '2048M');
 
-use DI\Container;
 
 require __DIR__ . '/../../vendor/autoload.php';
 

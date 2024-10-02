@@ -2,5 +2,5 @@
 
 namespace AIO\Container\State;
 
-class VersionEqualState implements IContainerState
-{}
+class VersionEqualState implements IContainerState {
+}

@@ -3,4 +3,5 @@
 declare(strict_types=1);
 namespace AIO\Data;
 
-class InvalidSettingConfigurationException extends \Exception {}
+class InvalidSettingConfigurationException extends \Exception {
+}

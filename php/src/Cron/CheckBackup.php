@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 // increase memory limit to 2GB

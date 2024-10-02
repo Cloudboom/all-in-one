@@ -3,17 +3,17 @@
 namespace AIO\Container;
 
 class ContainerVolumes {
-    /** @var ContainerVolume[] */
-    private array $volumes = [];
+	/** @var ContainerVolume[] */
+	private array $volumes = [];
 
-    public function AddVolume(ContainerVolume $volume) : void {
-        $this->volumes[] = $volume;
-    }
+	public function AddVolume(ContainerVolume $volume) : void {
+		$this->volumes[] = $volume;
+	}
 
-    /**
-     * @return ContainerVolume[]
-     */
-    public function GetVolumes() : array {
-        return $this->volumes;
-    }
+	/**
+	 * @return ContainerVolume[]
+	 */
+	public function GetVolumes() : array {
+		return $this->volumes;
+	}
 }

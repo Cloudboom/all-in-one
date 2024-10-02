@@ -2,4 +2,5 @@
 
 namespace AIO\Container\State;
 
-interface IContainerState {}
+interface IContainerState {
+}

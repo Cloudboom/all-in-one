@@ -2,5 +2,5 @@
 
 namespace AIO\Container\State;
 
-class RunningState implements IContainerState
-{}
+class RunningState implements IContainerState {
+}
